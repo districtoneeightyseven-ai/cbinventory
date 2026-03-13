@@ -1,0 +1,66 @@
+/* style.css */
+
+/* General Body Styling */
+body {
+    background-color: #ffebee; /* Soft red background */
+    color: #d32f2f; /* Dark red text color */
+    font-family: Arial, sans-serif;
+}
+
+/* Inventory Slot Styles */
+.inventory-slot {
+    width: 100px;
+    height: 100px;
+    background-color: #ffccbc; /* Light orange for slots */
+    border: 2px solid #ff5722; /* Darker orange border */
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+}
+
+/* Tabs Styling */
+.tabs {
+    display: flex;
+    background-color: #f44336; /* Tab background color */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tab {
+    margin-right: 20px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Weight Bar Styles */
+.weight-bar {
+    width: 100%;
+    background-color: #ffeb3b; /* Yellow for the weight bar */
+    border-radius: 5px;
+    height: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.weight-bar-fill {
+    height: 100%;
+    background-color: #ff5722; /* Darker orange fill */
+    width: 0%; /* Dynamic width based on weight */
+}
+
+/* Control Buttons */
+.control-button {
+    background-color: #f44336; /* Control button background color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.control-button:hover {
+    background-color: #c62828; /* Darker red on hover */
+}
