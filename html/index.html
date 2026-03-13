@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory UI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff4e6; /* Light background with red/orange theme */
+            color: #333;
+            text-align: center;
+        }
+        .header {
+            background-color: #ff4500; /* Red/orange header */
+            color: white;
+            padding: 10px 0;
+        }
+        .tabs {
+            margin: 20px 0;
+        }
+        .tab {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 0 5px;
+            background-color: #ff6347; /* Slightly different orange */
+            color: white;
+            cursor: pointer;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            padding: 20px;
+            justify-items: center;
+        }
+        .slot {
+            width: 100px;
+            height: 100px;
+            border: 2px dashed #ff6347;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #ff6347;
+        }
+        .instructions {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Inventory Management</h1>
+    </div>
+    <div class="tabs">
+        <div class="tab">INVENTORY</div>
+        <div class="tab">WEIGHT</div>
+        <div class="tab">PRIORITY</div>
+    </div>
+    <div class="grid">
+        <!-- Empty grid slots for inventory items -->
+        <div class="slot">Slot 1</div>
+        <div class="slot">Slot 2</div>
+        <div class="slot">Slot 3</div>
+        <div class="slot">Slot 4</div>
+        <div class="slot">Slot 5</div>
+        <div class="slot">Slot 6</div>
+        <div class="slot">Slot 7</div>
+        <div class="slot">Slot 8</div>
+        <div class="slot">Slot 9</div>
+        <div class="slot">Slot 10</div>
+    </div>
+    <div class="instructions">
+        <h2>Control Instructions</h2>
+        <p>Use the tabs above to navigate through the sections.</p>
+        <p>Each grid slot represents an inventory item that can hold up to 120kg.</p>
+    </div>
+</body>
+</html>
